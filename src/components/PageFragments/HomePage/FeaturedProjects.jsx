@@ -33,7 +33,7 @@ const FeaturedProjects = () => {
               handle="covid-19-ventilator-filter"
             />
           </Col>
-          <Col className="gutter-row" lg={12} md={24}>
+          <Col className="gutter-row" lg={12} md={24} style={{width: '100%'}}>
             <ProjectTile 
               title="Prowler Chasis Design" 
               subtitle="NJIT Robotics and Data Science Lab" 

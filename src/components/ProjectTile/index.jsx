@@ -18,6 +18,7 @@ const ProjectTile = ({
       hoverable
       bordered
       onClick={() => navigate(`/${handle}`)}
+      className={style.tileCard}
       cover={
         <div
           style={{ 
@@ -29,7 +30,7 @@ const ProjectTile = ({
           <img 
             alt={alt || ''} 
             src={img || ''} 
-            style={{ 
+            style={{
               width: '100%',
               height: 'auto',
               position: 'absolute',
