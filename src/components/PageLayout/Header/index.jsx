@@ -34,12 +34,12 @@ export default () => {
           <ul className={style.nav}>
             <li className={style.navItem}>
               <Link to="/" onClick={toggleMenu} activeClassName={style.anchorActive}>
-                About
+                Home
               </Link>
             </li>
             <li className={style.navItem}>
-              <Link to="/contact" onClick={toggleMenu} activeClassName={style.anchorActive}>
-                Contact
+              <Link to="/projects" onClick={toggleMenu} activeClassName={style.anchorActive}>
+                Projects
               </Link>
             </li>
             <li className={style.navItem}>

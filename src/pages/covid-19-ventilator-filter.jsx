@@ -3,8 +3,7 @@ import { Layout } from 'antd';
 import Header from '../components/PageLayout/Header';
 
 import SidebarWrapper from '../components/PageLayout/Sidebar';
-import AboutMe from '../components/PageFragments/HomePage/AboutMe';
-import FeaturedProjects from '../components/PageFragments/HomePage/FeaturedProjects';
+import VentilatorPage from '../components/Projects/VentilatorPage';
 
 export default () => (
   <Layout className="outerPadding">
@@ -12,8 +11,7 @@ export default () => (
       <Header />
       <SidebarWrapper>
         <>
-          <AboutMe />
-          <FeaturedProjects />
+          <VentilatorPage />
         </>
       </SidebarWrapper>
     </Layout>

@@ -10,7 +10,9 @@ module.exports = {
     home: '/',
     blog: 'blog',
     contact: 'contact',
+    projects: 'projects',
     resume: 'resume',
+    'covid-19-ventilator-filter': 'covid-ventilator-filter',
   },
   social: {
     linkedin: 'https://www.linkedin.com',
