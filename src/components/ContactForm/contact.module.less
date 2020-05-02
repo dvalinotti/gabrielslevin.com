@@ -1,0 +1,65 @@
+@import (reference) '../../styles/index.less';
+
+.contactFormContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+
+  .contactFormHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+  form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    p {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      label {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 100%;
+        align-items: center;
+
+        input, select, textarea {
+          padding: 15px;
+          border: 1px solid rgba(0,0,0,0.3);
+          border-radius: 0.5rem;
+        }
+      }
+      button {
+        color: white;
+        padding: 0.5rem 2rem;
+        background-color: @primary-color;
+        text-align: center;
+        border-radius: 0.5rem;
+        border-color: transparent;
+        transition: all 0.25s ease-in-out;
+
+        &:hover {
+          cursor: pointer;
+          background-color: @primary-color;
+          border-color: @primary-color;
+          box-shadow: 
+            0 1px 5px 1px rgba(0, 0, 0, 0.16), 
+            0 3px 3px 1px rgba(0, 0, 0, 0.12), 
+            0 5px 9px 7px rgba(0, 0, 0, 0.09);
+        }
+      }
+    }
+  }
+}
