@@ -35,14 +35,6 @@ export default class Resume extends Component {
         >
           <Page pageNumber={pageNumber} />
         </Document>
-        <Row justify="center" style={{ background: 'lightslategray' }}>
-          <Col span={2}>
-            <p>{`Page ${pageNumber} of ${numPages}`}</p>
-          </Col>
-          <Col span={2}>
-            <Button type="primary" onClick={pageToggle}>{pageNumber === 1 ? 'Next Page' : 'Previous Page'}</Button>
-          </Col>
-        </Row>
       </div>
     );
   }

@@ -13,7 +13,8 @@ module.exports = {
     projects: 'projects',
     resume: 'resume',
     'covid-19-ventilator-filter': 'covid-ventilator-filter',
-    contact: 'contact'
+    contact: 'contact',
+    experience: 'experience'
   },
   social: {
     linkedin: 'https://www.linkedin.com',
