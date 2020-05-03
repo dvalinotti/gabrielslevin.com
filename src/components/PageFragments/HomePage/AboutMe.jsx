@@ -5,7 +5,7 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `I am a final semester senior graduating this <strong>May of 2020</strong> from the New Jersey Institute of Technology 
+  paraOne: `I am a final semester senior graduating this <strong>May of 2020 from the New Jersey Institute of Technology</strong>
   majoring in <strong>Mechanical Engineering Technology with a minor in Manufacturing Engineering.</strong> At NJIT, I am part of 
   the Robotics and Drone Science lab as the Mechanical Designer solving problems for the research lab that involve 
   creative ways to help the robots complete their job when programming simply will not do the trick. I am also part 

@@ -33,7 +33,7 @@ const DomContent = () => (
             <FeatherIcon size="19" icon="calendar" />
             {' '}
           </span>
-&nbsp; &nbsp; May 9,1995
+&nbsp; &nbsp; May 12,1997
         </li>
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="map-pin" /></span>

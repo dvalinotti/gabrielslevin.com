@@ -23,7 +23,7 @@ const FeaturedProjects = () => {
         />
         <h1 className="titleSeparate">Featured Projects</h1>
         <Row gutter={16}>
-          <Col className="gutter-row" lg={12} md={24}>
+          <Col className={style.colPadding} lg={12} md={24}>
             <ProjectTile 
               title="COVID-19 Ventilator Filter" 
               subtitle="3D printable, CNC machninable two piece filter" 
@@ -45,7 +45,7 @@ const FeaturedProjects = () => {
         </Row>
       </div>
       <Row gutter={16} style={{ marginTop: '1rem' }}>
-        <Col className="gutter-row" lg={24} >
+        <Col lg={24} >
           <Button
             size="large"
             type="primary"
