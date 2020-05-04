@@ -14,6 +14,9 @@ export default function VentilatorPage() {
       <div className={style.pageHeader}>
         <h1>COVID-19 Ventilator Filter</h1>
         <p>3D printable, CNC machninable two piece filter</p>
+        <a href="https://drive.google.com/open?id=13xp8f-bN_SUmZzoe1MLlIaiTsKq25cnK" target="_blank">
+          Download project on Google Drive
+        </a>
       </div>
       <div className={style.gallery}>
         <Gallery

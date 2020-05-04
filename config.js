@@ -14,7 +14,8 @@ module.exports = {
     resume: 'resume',
     'covid-19-ventilator-filter': 'covid-ventilator-filter',
     contact: 'contact',
-    experience: 'experience'
+    experience: 'experience',
+    'perrigo-internship': 'perrigo-internship',
   },
   social: {
     linkedin: 'https://www.linkedin.com',

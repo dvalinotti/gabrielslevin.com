@@ -6,15 +6,14 @@ import Photo1 from '../../../images/projects/prowler/ProwlerASM.png';
 import Photo2 from '../../../images/projects/prowler/ProwlerBOM.png';
 import Photo3 from '../../../images/projects/prowler/ProwlerDrawing.png';
 
-export default function VentilatorPage() {
+export default function PerrigoPage() {
   console.log(Photo1);
 
   return (
     <div className={style.pageContainer}>
       <div className={style.pageHeader}>
-        <h1>Prowler Chasis Design</h1>
-        <p>NJIT Robotics and Data Science Lab</p>
-        <a href="../report.pdf" target="_blank">Download Project Report</a>
+        <h1>Perrigo Pharmaceuticals</h1>
+        <p>Production Engineering Intern Projects 2019</p>
       </div>
       <div className={style.gallery}>
         <Gallery

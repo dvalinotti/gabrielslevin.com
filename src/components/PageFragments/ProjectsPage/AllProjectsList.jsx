@@ -9,6 +9,9 @@ import style from './allprojectslist.module.less';
 
 import ventilator from '../../../images/ventilator.png';
 import ProwlerASM from '../../../images/ProwlerASM.png';
+import PerrigoBG from '../../../images/projects/perrigo/PerrigoBG.jpg';
+import NjitBG from '../../../images/projects/college/NjitBG.jpg';
+import DroneASM from '../../../images/projects/drone/DroneASM.png';
 
 
 export default function AllProjectsList({
@@ -32,6 +35,27 @@ export default function AllProjectsList({
             img={ProwlerASM}
             height={450}
             handle="prowler-chasis-design"
+          />
+          <ProjectHero 
+            title="Perrigo Pharmaceuticals" 
+            subtitle="Production Engineering Intern Projects 2019" 
+            img={PerrigoBG}
+            height={450}
+            handle="perrigo-internship"
+          />
+          <ProjectHero 
+            title="Collegiate Projects" 
+            subtitle="In-class assignments and projects made using NJIT MakerSpace" 
+            img={NjitBG}
+            height={450}
+            handle="collegiate-projects"
+          />
+          <ProjectHero 
+            title="Drone Design" 
+            subtitle="Collegiate Project" 
+            img={DroneASM}
+            height={450}
+            handle="drone-design"
           />
         </Col>
       </Row>
