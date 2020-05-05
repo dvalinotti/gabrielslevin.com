@@ -3,7 +3,7 @@ import Gallery from "react-photo-gallery";
 import style from './ventilatorpage.module.less';
 
 import Video from '../../../images/projects/college/Project2Assembly.mp4'
-import Photo1 from '../../../images/projects/college/PistonASM.png';
+import Photo1 from '../../../images/projects/college/PistonASM.jpg';
 import Photo2 from '../../../images/projects/college/Clock.jpg';
 import Photo3 from '../../../images/projects/college/KitchenTop.jpg';
 import Photo4 from '../../../images/projects/college/Letter.jpg';
