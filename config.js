@@ -16,6 +16,9 @@ module.exports = {
     contact: 'contact',
     experience: 'experience',
     'perrigo-internship': 'perrigo-internship',
+    'collegiate-projects': 'collegiate-projects',
+    'drone-design': 'drone-design',
+    'pisp-work': 'pisp-work'
   },
   social: {
     linkedin: 'https://www.linkedin.com',

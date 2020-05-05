@@ -12,7 +12,7 @@ import ProwlerASM from '../../../images/ProwlerASM.png';
 import PerrigoBG from '../../../images/projects/perrigo/PerrigoBG.jpg';
 import NjitBG from '../../../images/projects/college/NjitBG.jpg';
 import DroneASM from '../../../images/projects/drone/DroneASM.png';
-
+import PispBG from '../../../images/projects/pisp/PispBG.jpg';
 
 export default function AllProjectsList({
   list = [],
@@ -56,6 +56,13 @@ export default function AllProjectsList({
             img={DroneASM}
             height={450}
             handle="drone-design"
+          />
+          <ProjectHero 
+            title="Partners In Sount Productions" 
+            subtitle="Work as Lead Production Engineer" 
+            img={PispBG}
+            height={450}
+            handle="pisp-work"
           />
         </Col>
       </Row>

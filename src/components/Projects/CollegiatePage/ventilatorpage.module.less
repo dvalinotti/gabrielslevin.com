@@ -1,0 +1,47 @@
+
+@import (reference) '../../../styles/index.less';
+.pageContainer {
+  width: 100%;
+  .pageHeader {
+    display: flex;
+    flex-direction: column;
+    h1 {
+      text-align: center;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+      font-size: 2.25rem;
+
+      @media (max-width: 768px) {
+        margin-top: 2rem;
+      }
+    }
+    p {
+      text-align: center;
+      font-weight: 300;
+    }
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      a {
+        color: #fafafa;
+        background-color: @primary-color;
+        padding: 1rem;
+        margin: 1rem;
+        text-align: center;
+        border-radius: 0.5rem;
+        transition: box-shadow 0.25s ease-in-out;
+        &:hover {
+          box-shadow: 
+              0 1px 5px 1px rgba(0, 0, 0, 0.16), 
+              0 3px 3px 1px rgba(0, 0, 0, 0.12), 
+              0 5px 9px 7px rgba(0, 0, 0, 0.09);
+        }
+      }
+    }
+  }
+  div > video {
+    width: 100%;
+    height: auto;
+  }
+}
